@@ -106,3 +106,5 @@ ALL_DEFAULT_INSTALLED_MODULES += $(IMS_SYMLINKS)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
+
+endif
