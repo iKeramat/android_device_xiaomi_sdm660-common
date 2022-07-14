@@ -2,6 +2,7 @@
 <!--
      Copyright (C) 2015-2016 The CyanogenMod Project
                    2017 The LineageOS Project
+     Copyright (C) 2022 The LibreMobileOS Foundation
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,7 +17,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.lineageos.settings.doze"
+    package="com.libremobileos.settings.doze"
     android:sharedUserId="android.uid.system"
     android:versionCode="1"
     android:versionName="1.0">
@@ -51,7 +52,7 @@
             android:label="@string/ambient_display_title"
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
-                <action android:name="org.lineageos.settings.device.DOZE_SETTINGS" />
+                <action android:name="com.libremobileos.settings.device.DOZE_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
