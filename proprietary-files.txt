@@ -215,6 +215,13 @@ vendor/lib64/libSecureUILib.so|b98555b76083a897fc9bbfc27778750d2d47817a
 vendor/lib64/libssd.so|774488b88c37053067b3cad551ac95360c03edd3
 vendor/lib64/libStDrvInt.so|6091f1f496b87730f9a77e9ede504c4fa99c608a
 
+# DSP - from S62Pro
+vendor/bin/dspservice
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
+vendor/lib/vendor.qti.hardware.dsp@1.0.so
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so
+
 # FM - from S62Pro
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|f6e23f902b7e15232b20af55161a24da93ffe25f
 
